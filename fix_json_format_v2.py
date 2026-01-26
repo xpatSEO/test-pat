@@ -2,6 +2,8 @@
 """
 Script pour corriger le format du fichier all_landings_wpai.json
 afin qu'il corresponde au format attendu (metier_ID_678_data.json)
+
+VERSION 2: Corrige le format des arrays (garde les strings DANS les arrays)
 """
 
 import json
@@ -13,41 +15,49 @@ from typing import Any, Dict, List
 def fix_acf_block_values(content: str) -> str:
     """
     Corrige les valeurs dans les blocs ACF du post_content:
-    1. Convertit les IDs d'images de string à int
-    2. Désérialise les arrays qui sont en string
+    1. Convertit les IDs d'images DIRECTS de string à int
+    2. Désérialise les arrays qui sont en string (mais garde les strings DANS l'array)
+
+    FORMAT CORRECT:
+    - Arrays: "kb_offers_list":["25896","24919","25897","25898"]
+    - IDs directs: "kb_header_metier_img":23227
     """
 
-    # Pattern pour trouver les IDs d'images en string et les convertir en int
+    # 1. Pattern pour les IDs d'images DIRECTS en string -> convertir en int
     # Exemple: "kb_header_metier_img":"23227" => "kb_header_metier_img":23227
     def convert_img_ids(match):
         field_name = match.group(1)
         img_id = match.group(2)
         return f'"{field_name}":{img_id}'
 
-    # Patterns pour les champs d'images
+    # Patterns pour les champs d'images (IDs directs uniquement)
     img_patterns = [
-        r'"(kb_[^"]*_img)":"(\d+)"',
-        r'"(kb_[^"]*_icon)":"(\d+)"',
-        r'"(_kb_[^"]*_img)":"(\d+)"',
-        r'"(_kb_[^"]*_icon)":"(\d+)"',
+        r'"(kb_[^"]*_img)":"(\d+)"',  # kb_header_metier_img":"23227"
+        r'"(kb_[^"]*_icon)":"(\d+)"', # kb_avantages_item_icon":"23802"
     ]
 
     for pattern in img_patterns:
         content = re.sub(pattern, convert_img_ids, content)
 
-    # Pattern pour les listes/arrays sérialisés comme strings
-    # Exemple: "kb_offers_list":"[25896, 24919]" => "kb_offers_list":[25896,24919]
+    # 2. Pattern pour les arrays sérialisés comme strings
+    # Exemple: "kb_offers_list":"[25896, 24919]" => "kb_offers_list":["25896","24919"]
+    # IMPORTANT: Garder les valeurs DANS l'array comme STRINGS
     def convert_arrays(match):
         field_name = match.group(1)
         array_content = match.group(2)
-        # Nettoyer les espaces dans l'array
-        array_content = re.sub(r'\s+', '', array_content)
-        return f'"{field_name}":{array_content}'
+        # Parser l'array pour extraire les valeurs
+        # Supprimer les crochets
+        values_str = array_content.strip('[]')
+        # Séparer par les virgules et nettoyer les espaces
+        values = [v.strip() for v in values_str.split(',')]
+        # Reconstruire l'array avec les valeurs en strings
+        array_json = '["' + '","'.join(values) + '"]'
+        return f'"{field_name}":{array_json}'
 
     # Pattern pour détecter les arrays sérialisés
-    content = re.sub(r'"(kb_[^"]*_list|metiers|_metiers)":"(\[[^\]]+\])"', convert_arrays, content)
+    content = re.sub(r'"(kb_[^"]+_list|metiers|_metiers)":"(\[[^\]]+\])"', convert_arrays, content)
 
-    # Pattern pour les compteurs numériques (ex: "kb_partners_list":"10" => "kb_partners_list":10)
+    # 3. Pattern pour les compteurs numériques (ex: "kb_partners_list":"10" => "kb_partners_list":10)
     def convert_numeric_counts(match):
         field_name = match.group(1)
         count = match.group(2)
@@ -218,8 +228,8 @@ def main():
     print("✓ Ajout de 'post_password' dans post_data")
     print("✓ Ajout/correction de 'guid' dans post_data")
     print("✓ Correction de 'ID' (null → 0)")
-    print("✓ Conversion des IDs d'images (string → int)")
-    print("✓ Désérialisation des arrays dans post_content")
+    print("✓ Conversion des IDs d'images DIRECTS (string → int)")
+    print("✓ Désérialisation des arrays (garde les strings DANS l'array)")
     print("✓ Ajout du champ 'feature_img'")
     print("✓ Ajout de '_thumbnail_id' dans post_meta")
     print("="*80)
