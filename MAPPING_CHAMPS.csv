@@ -1,0 +1,89 @@
+Section,Champ,Type,Format,Obligatoire,Exemple,Notes
+Premier niveau,post_data,dict,Objet JSON,Oui,{...},Données principales du post WordPress
+Premier niveau,post_meta,dict,Objet JSON,Oui,{...},Métadonnées WordPress et ACF
+Premier niveau,taxonomies,list,Array vide,Oui,[],Taxonomies (catégories/tags)
+Premier niveau,feature_img,list,"[url, width, height, bool]",Oui,"[""https://..."", 596, 1014, false]",Image mise en avant
+Premier niveau,acf_fields,dict,Objet JSON,Oui,{...},Champs ACF désérialisés
+Premier niveau,post_type,string,Texte,Oui,"""metier""",Type de post
+post_data,ID,integer,Nombre entier,Oui,678,ID du post (0 = auto-généré)
+post_data,post_author,string,ID utilisateur,Oui,"""39""",Auteur du post
+post_data,post_date,string,YYYY-MM-DD HH:MM:SS,Oui,"""2025-04-24 16:57:17""",Date de publication
+post_data,post_date_gmt,string,YYYY-MM-DD HH:MM:SS,Oui,"""2025-04-24 14:57:17""",Date GMT
+post_data,post_content,string,HTML/Blocs,Oui,"""<!-- wp:acf/...""",Contenu avec blocs ACF
+post_data,post_title,string,Texte,Oui,"""Expert-comptable VTC...""",Titre du post
+post_data,post_excerpt,string,Texte,Oui,"""""",Extrait (peut être vide)
+post_data,post_status,string,Statut WP,Oui,"""publish""",publish/draft/pending
+post_data,comment_status,string,Statut,Oui,"""closed""",closed/open
+post_data,ping_status,string,Statut,Oui,"""closed""",closed/open
+post_data,post_password,string,Texte,Oui,"""""",Protection par mot de passe
+post_data,post_name,string,Slug,Oui,"""transport-personnes""",Slug URL
+post_data,to_ping,string,URLs,Oui,"""""",URLs à pinger
+post_data,pinged,string,URLs,Oui,"""""",URLs pingées
+post_data,post_modified,string,YYYY-MM-DD HH:MM:SS,Oui,"""2026-01-19 16:52:50""",Dernière modification
+post_data,post_modified_gmt,string,YYYY-MM-DD HH:MM:SS,Oui,"""2026-01-19 15:52:50""",Dernière modification GMT
+post_data,post_content_filtered,string,Texte,Oui,"""""",Contenu filtré
+post_data,post_parent,integer,ID,Oui,0,ID du post parent
+post_data,guid,string,URL,Oui,"""https://staging.site...""",URL unique WordPress
+post_data,menu_order,integer,Nombre,Oui,15,Ordre dans le menu
+post_data,post_type,string,Type,Oui,"""metier""",Type de post
+post_data,post_mime_type,string,MIME,Oui,"""""",Type MIME
+post_data,comment_count,string,Nombre,Oui,"""0""",Nombre de commentaires
+post_data,filter,string,Texte,Oui,"""raw""",Filtre appliqué
+post_meta,_thumbnail_id,list[string],Array de string,Recommandé,"[""23619""]",ID de l'image mise en avant
+post_meta,_edit_last,list[string],Array de string,Recommandé,"[""39""]",Dernier éditeur
+post_meta,_edit_lock,list[string],Array de string,Non,"[""1768838017:39""]",Verrou d'édition
+post_meta,_acf_changed,list[string],Array de string,Recommandé,"[""1""]",ACF a changé
+post_meta,_wp_page_template,list[string],Array de string,Recommandé,"[""template-job-service.php""]",Template de page
+post_meta,_wp_old_slug,list[string],Array de string,Non,"[""e-commerce"", ""...""]",Anciens slugs
+post_meta,block_type,list[string],Array de string,Non,"[""with_form""]",Type de bloc
+post_meta,_block_type,list[string],Array de string,Non,"[""field_65c094db0144d""]",Field key ACF
+post_meta,form_title,list[string],Array de string,Non,"[""Prendre rendez-vous...""]",Titre du formulaire
+post_meta,_form_title,list[string],Array de string,Non,"[""field_65c093610b07c""]",Field key ACF
+post_meta,template_form_id,list[string],Array de string,Non,"[""7""]",ID du formulaire
+post_meta,_template_form_id,list[string],Array de string,Non,"[""field_65e720072e7d8""]",Field key ACF
+post_meta,form_source,list[string],Array de string,Non,"[""KEO VTC""]",Source du formulaire
+post_meta,_form_source,list[string],Array de string,Non,"[""field_623c33e6d0c96""]",Field key ACF
+post_meta,hide_actions,list[string],Array de string,Non,"[""0""]",Masquer actions
+post_meta,_hide_actions,list[string],Array de string,Non,"[""field_633c11fc17d35""]",Field key ACF
+post_meta,hide_logo,list[string],Array de string,Non,"[""0""]",Masquer logo
+post_meta,_hide_logo,list[string],Array de string,Non,"[""field_6470b5798a4d6""]",Field key ACF
+post_meta,commentary,list[string],Array de string,Non,"[""""]",Commentaire
+post_meta,_commentary,list[string],Array de string,Non,"[""field_63e6248d95c32""]",Field key ACF
+post_meta,_custom_header_design,list[string],Array de string,Non,"[""yes""]",Design header personnalisé
+post_meta,title,list[string],Array de string,Non,"[""Expert-comptable VTC...""]",Titre alternatif
+post_meta,_yoast_wpseo_title,list[string],Array de string,Non,"[""Cabinet d'expertise...""]",Titre SEO Yoast
+post_meta,_yoast_wpseo_metadesc,list[string],Array de string,Non,"[""Pourquoi faire appel...""]",Meta description Yoast
+post_meta,_yoast_wpseo_content_score,list[string],Array de string,Non,"[""90""]",Score Yoast
+post_meta,_yoast_wpseo_estimated-reading-time-minutes,list[string],Array de string,Non,"[""1""]",Temps de lecture
+post_meta,_yoast_wpseo_wordproof_timestamp,list[string],Array de string,Non,"[""""]",Timestamp WordProof
+post_meta,_pys_head_footer,list[string],Array de string,Non,"[""a:7:{...}""]","Scripts head/footer (PHP sérialisé)"
+acf_fields,form_source,string,Texte,Non,"""KEO VTC""",Source du formulaire
+acf_fields,hide_actions,boolean,Boolean,Non,false,Masquer les actions
+acf_fields,commentary,string,Texte,Non,"""""",Commentaire
+acf_fields,hide_logo,boolean,Boolean,Non,false,Masquer le logo
+acf_fields,block_type,string,Texte,Non,"""with_form""",Type de bloc
+acf_fields,form_title,string,Texte,Non,"""Prendre rendez-vous...""",Titre du formulaire
+acf_fields,template_form_id,string,ID,Non,"""7""",ID du template
+post_content (ACF),kb_*_img,integer,Integer,Variable,23227,ID d'image DIRECT
+post_content (ACF),kb_*_icon,integer,Integer,Variable,28506,ID d'icône DIRECT
+post_content (ACF),_kb_*_img,string,Field key,Variable,"""field_68527a9b86417""",Field key ACF pour image
+post_content (ACF),_kb_*_icon,string,Field key,Variable,"""field_67cf08c12bbfc""",Field key ACF pour icône
+post_content (ACF),kb_*_title,string,Texte/HTML,Variable,"""Expert-comptable...""",Titre
+post_content (ACF),_kb_*_title,string,Field key,Variable,"""field_68527a9b86396""",Field key ACF pour titre
+post_content (ACF),kb_*_desc,string,Texte/HTML,Variable,"""Pour se lancer...""",Description
+post_content (ACF),_kb_*_desc,string,Field key,Variable,"""field_68527a9b863da""",Field key ACF pour description
+post_content (ACF),kb_*_subtitle,string,Texte/HTML,Variable,"""De la création...""",Sous-titre
+post_content (ACF),kb_*_url,string,URL,Variable,"""/nous-contacter/""",URL
+post_content (ACF),kb_*_link,string,URL,Variable,"""/nous-contacter""",Lien
+post_content (ACF),kb_*_btn_txt,string,Texte,Variable,"""Obtenez un devis""",Texte du bouton
+post_content (ACF),kb_*_show_btn,string,"0 ou 1",Variable,"""1""",Afficher le bouton
+post_content (ACF),kb_*_text_small,string,"0 ou 1",Variable,"""1""",Texte petit
+post_content (ACF),kb_*_list (compteur),integer,Integer,Variable,10,Nombre d'items dans la liste
+post_content (ACF),kb_*_items (compteur),integer,Integer,Variable,3,Nombre d'items
+post_content (ACF),kb_offers_list (array),array[string],Array de strings,Variable,"[""25896"",""24919"",""25897"",""25898""]",⚠️ IDs en STRINGS dans l'array
+post_content (ACF),metiers (array),array[string],Array de strings,Variable,"[""943"",""13457"",""986""]",⚠️ IDs en STRINGS dans l'array
+post_content (ACF),kb_*_list_N_kb_*,variable,Variable selon le champ,Variable,Divers,Champs répéteurs (N = index)
+feature_img,[0] url,string,URL,Oui,"""https://staging.site.../image.webp""",URL de l'image
+feature_img,[1] width,integer,Pixels,Oui,596,Largeur
+feature_img,[2] height,integer,Pixels,Oui,1014,Hauteur
+feature_img,[3] is_intermediate,boolean,Boolean,Oui,false,Taille intermédiaire
