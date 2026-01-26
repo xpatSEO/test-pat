@@ -1,0 +1,94 @@
+{
+  "post_data": {
+    "ID": 0,
+    "post_author": "39",
+    "post_date": "2026-01-21 18:07:11",
+    "post_date_gmt": "2026-01-21 18:07:11",
+    "post_content": "<!-- wp:acf/header-metier {\"name\":\"acf/header-metier\",\"data\":{\"kb_header_metier_img\":23227,\"kb_header_metier_desc\":\"Artisans et PME du bâtiment : évitez les redressements, simplifiez vos obligations et gagnez en trésorerie. Audit gratuit et plan d'action en 48h.\",\"kb_header_metier_price\":\"109\",\"kb_header_metier_title\":\"Expert-Comptable Spécialisé BTP : Sécurisez Vos Marges et Réduisez Vos Impôts\",\"kb_header_metier_btn_txt\":\"Demander mon diagnostic gratuit\",\"kb_header_metier_btn_url\":\"/nous-contacter/\",\"kb_header_metier_mention\":\"Gratuit et sans engagement.\",\"kb_header_metier_show_btn\":\"1\",\"kb_header_metier_text_small\":\"1\",\"kb_header_metier_img_experts\":\"24827\",\"_kb_header_metier_img\":\"field_68527a9b86417\",\"_kb_header_metier_desc\":\"field_68527a9b863da\",\"_kb_header_metier_price\":\"field_68527da74bc8b\",\"_kb_header_metier_title\":\"field_68527a9b86396\",\"_kb_header_metier_btn_txt\":\"field_68527a9b86491\",\"_kb_header_metier_btn_url\":\"field_68527a9b864cd\",\"_kb_header_metier_mention\":\"field_68527a9b8650a\",\"_kb_header_metier_show_btn\":\"field_68527a9b86453\",\"_kb_header_metier_text_small\":\"field_6879016fdd585\",\"_kb_header_metier_img_experts\":\"field_68527a9b86547\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/reviews-count {\"name\":\"acf/reviews-count\",\"data\":{\"kb_reviews_count_custom_description\":\"Plus de 1500 entrepreneurs satisfaits, noté 4.8/5 sur Google.\",\"_kb_reviews_count_custom_description\":\"field_68f745866e5a0\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/partners-new {\"name\":\"acf/partners-new\",\"data\":{\"kb_partners_list\":10,\"kb_partners_title\":\"\",\"kb_partners_subtitle\":\"Nos partenaires, acteurs de notre succès.\",\"kb_partners_list_0_kb_partners_item_img\":23752,\"kb_partners_list_1_kb_partners_item_img\":23751,\"kb_partners_list_2_kb_partners_item_img\":23750,\"kb_partners_list_3_kb_partners_item_img\":23749,\"kb_partners_list_4_kb_partners_item_img\":23748,\"kb_partners_list_5_kb_partners_item_img\":23747,\"kb_partners_list_6_kb_partners_item_img\":23746,\"kb_partners_list_7_kb_partners_item_img\":23745,\"kb_partners_list_8_kb_partners_item_img\":23744,\"kb_partners_list_9_kb_partners_item_img\":23743,\"kb_partners_list_0_kb_partners_item_title\":\"\",\"kb_partners_list_1_kb_partners_item_title\":\"\",\"kb_partners_list_2_kb_partners_item_title\":\"\",\"kb_partners_list_3_kb_partners_item_title\":\"\",\"kb_partners_list_4_kb_partners_item_title\":\"\",\"kb_partners_list_5_kb_partners_item_title\":\"\",\"kb_partners_list_6_kb_partners_item_title\":\"\",\"kb_partners_list_7_kb_partners_item_title\":\"\",\"kb_partners_list_8_kb_partners_item_title\":\"\",\"kb_partners_list_9_kb_partners_item_title\":\"\",\"_kb_partners_list\":\"field_67c71b329d654\",\"_kb_partners_title\":\"field_67c71b0e9d652\",\"_kb_partners_subtitle\":\"field_67c71b279d653\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/avantages-columns {\"name\":\"acf/avantages-columns\",\"data\":{\"kb_avantages_columns_items\":3,\"kb_avantages_columns_title\":\"Pourquoi choisir <span>Keobiz</span> pour votre activité BTP ?\",\"kb_avantages_columns_subtitle\":\"\",\"kb_avantages_columns_link_all_url\":\"/nous-contacter\",\"kb_avantages_columns_link_all_title\":\"Démarrer mon activité\",\"kb_avantages_columns_items_0_kb_avantages_columns_item_img\":28506,\"kb_avantages_columns_items_1_kb_avantages_columns_item_img\":28505,\"kb_avantages_columns_items_2_kb_avantages_columns_item_img\":28504,\"kb_avantages_columns_items_0_kb_avantages_columns_item_desc\":\"<ul>\n \t<li>Audit de votre situation (Micro, SASU, EURL)</li>\n \t<li>Prise en charge de vos formalités de création</li>\n \t<li>Conseil en optimisation (salaire vs. dividendes)</li>\n</ul>\",\"kb_avantages_columns_items_1_kb_avantages_columns_item_desc\":\"<ul>\n \t<li>Expertise sur la TVA (5.5%, 10%, autoliquidation)</li>\n \t<li>Outil de scan de vos factures d'achat (matériaux, outils)</li>\n \t<li>Calcul et optimisation de vos frais de déplacement</li>\n</ul>\",\"kb_avantages_columns_items_2_kb_avantages_columns_item_desc\":\"<ul>\n \t<li>Un expert dédié qui connaît les galères du bâtiment</li>\n \t<li>Synchronisation bancaire automatique</li>\n \t<li>Dossier certifié en cas de contrôle URSSAF</li>\n</ul>\",\"kb_avantages_columns_items_0_kb_avantages_columns_item_title\":\"Choisir le bon statut pour optimiser vos revenus\",\"kb_avantages_columns_items_1_kb_avantages_columns_item_title\":\"Maîtriser la TVA BTP et vos charges réelles\",\"kb_avantages_columns_items_2_kb_avantages_columns_item_title\":\"Gagner du temps et sécuriser vos chantiers\",\"_kb_avantages_columns_items\":\"field_68f8a67ac8539\",\"_kb_avantages_columns_title\":\"field_68f8a655c8537\",\"_kb_avantages_columns_subtitle\":\"field_68f8a66bc8538\",\"_kb_avantages_columns_link_all_url\":\"field_68f8a7a3c853e\",\"_kb_avantages_columns_link_all_title\":\"field_68f8a78fc853d\"},\"mode\":\"edit\",\"className\":\"bg-bleu\"} /-->\n\n<!-- wp:acf/offers-new-block {\"name\":\"acf/offers-new-block\",\"data\":{\"kb_offers_list\":[\"25896\",\"24919\",\"25897\",\"25898\"],\"kb_offers_title\":\"Des solutions sur-mesure pour le BTP\",\"kb_offers_subtitle\":\"De l'auto-entrepreneur à la PME de 50 salariés\",\"kb_offers_btn_title\":\"Découvrez nos tarifs\",\"_kb_offers_list\":\"field_67c07e2f53a7d\",\"_kb_offers_title\":\"field_67c07de053a7b\",\"_kb_offers_subtitle\":\"field_67c07e1c53a7c\",\"_kb_offers_btn_title\":\"field_688b2730d7978\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/avantages-block {\"name\":\"acf/avantages-block\",\"data\":{\"kb_avantages_list\":4,\"kb_avantages_title\":\"L'expertise <span>terrain</span> avant tout\",\"kb_avantages_btn_link\":\"/nous-contacter\",\"kb_avantages_subtitle\":\"Un comptable qui parle votre langage\",\"kb_avantages_btn_title\":\"Lancer mon activité\",\"kb_avantages_list_0_kb_avantages_item_desc\":\"Gestion complète : TVA (5.5%, 10%, 20%), auto-liquidation, déclarations fiscales et bilan annuel certifié.\",\"kb_avantages_list_0_kb_avantages_item_icon\":23802,\"kb_avantages_list_1_kb_avantages_item_desc\":\"Bulletins de paie conformes aux conventions BTP, gestion de la CIBTP (Congés Intempéries), paniers repas et déplacements.\",\"kb_avantages_list_1_kb_avantages_item_icon\":26436,\"kb_avantages_list_2_kb_avantages_item_desc\":\"Mise en place de tableaux de bord simples pour suivre la rentabilité réelle de chaque chantier en temps réel.\",\"kb_avantages_list_2_kb_avantages_item_icon\":26435,\"kb_avantages_list_3_kb_avantages_item_desc\":\"Choix du statut (EI, EURL, SASU), optimisation de la rémunération du dirigeant et réduction de l'impôt.\",\"kb_avantages_list_3_kb_avantages_item_icon\":28507,\"kb_avantages_list_0_kb_avantages_item_title\":\"Comptabilité & Fiscalité BTP\",\"kb_avantages_list_1_kb_avantages_item_title\":\"Gestion Sociale & Paie\",\"kb_avantages_list_2_kb_avantages_item_title\":\"Pilotage de Marge par Chantier\",\"kb_avantages_list_3_kb_avantages_item_title\":\"Optimisation Fiscale & Juridique\",\"_kb_avantages_list\":\"field_67cf08b32bbfb\",\"_kb_avantages_title\":\"field_67cf08932bbf9\",\"_kb_avantages_btn_link\":\"field_688b20efe9673\",\"_kb_avantages_subtitle\":\"field_67cf08a72bbfa\",\"_kb_avantages_btn_title\":\"field_688b2089e9672\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/testimonials-new {\"name\":\"acf/testimonials-new\",\"data\":{\"kb_intro_image_btn\":\"\",\"kb_intro_image_img\":\"\",\"kb_intro_image_title\":\"\",\"kb_intro_image_description\":\"\",\"_kb_intro_image_btn\":\"field_67d8332dfb24d\",\"_kb_intro_image_img\":\"field_67d832fdfb24b\",\"_kb_intro_image_title\":\"field_67d832dcfb24a\",\"_kb_intro_image_description\":\"field_67d8330cfb24c\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/chiffres-temoignage {\"name\":\"acf/chiffres-temoignage\",\"data\":{\"kb_chiffres_temoignage_list\":3,\"kb_chiffres_temoignage_1_img\":28508,\"kb_chiffres_temoignage_title\":\"<span>Donnez vie</span> à vos projets\",\"kb_chiffres_temoignage_1_name\":\"Marc D.\",\"kb_chiffres_temoignage_1_text\":\"Avant, je ne savais jamais où j'en étais niveau tréso. Aujourd'hui, j'ai un tableau de bord clair et j'ai pu embaucher 2 gars sereinement.\",\"kb_chiffres_temoignage_2_name\":\"Sophie L.\",\"kb_chiffres_temoignage_2_text\":\"J'avais peur de changer d'expert-comptable, mais Keobiz a tout géré. Ils ont même récupéré 3000€ de TVA oubliée par l'ancien comptable !\",\"kb_chiffres_temoignage_subtitle\":\"Des résultats concrets pour votre activité\",\"kb_chiffres_temoignage_1_function\":\"Gérant, Entreprise de Maçonnerie\",\"kb_chiffres_temoignage_2_function\":\"Artisan Électricien\",\"kb_chiffres_temoignage_description\":\"Clarté.<br>\\n<strong>Disponibilité.</strong> Réactivité. Des prix justes.\",\"kb_chiffres_temoignage_list_0_kb_chiffres_temoignage_item_txt\":\"Entreprises BTP accompagnées\",\"kb_chiffres_temoignage_list_1_kb_chiffres_temoignage_item_txt\":\"Note moyenne Google Avis\",\"kb_chiffres_temoignage_list_2_kb_chiffres_temoignage_item_txt\":\"De temps administratif\",\"kb_chiffres_temoignage_list_0_kb_chiffres_temoignage_item_number\":\"1200\",\"kb_chiffres_temoignage_list_0_kb_chiffres_temoignage_item_symbol\":\"\",\"kb_chiffres_temoignage_list_1_kb_chiffres_temoignage_item_number\":\"4.8\",\"kb_chiffres_temoignage_list_1_kb_chiffres_temoignage_item_symbol\":\"\",\"kb_chiffres_temoignage_list_2_kb_chiffres_temoignage_item_number\":\"30\",\"kb_chiffres_temoignage_list_2_kb_chiffres_temoignage_item_symbol\":\"-\",\"kb_chiffres_temoignage_list_0_kb_chiffres_temoignage_item_symbol_after\":\"+\",\"kb_chiffres_temoignage_list_1_kb_chiffres_temoignage_item_symbol_after\":\"/5\",\"kb_chiffres_temoignage_list_2_kb_chiffres_temoignage_item_symbol_after\":\"%\",\"_kb_chiffres_temoignage_list\":\"field_68f8ea0a89366\",\"_kb_chiffres_temoignage_1_img\":\"field_68f8ebb00190b\",\"_kb_chiffres_temoignage_title\":\"field_68f8ea0a892e5\",\"_kb_chiffres_temoignage_1_name\":\"field_68f8ebf00190c\",\"_kb_chiffres_temoignage_1_text\":\"field_68f8eb470190a\",\"_kb_chiffres_temoignage_2_name\":\"field_68f8ec3e0190f\",\"_kb_chiffres_temoignage_2_text\":\"field_68f8ec230190e\",\"_kb_chiffres_temoignage_subtitle\":\"field_68f8ea0a89329\",\"_kb_chiffres_temoignage_1_function\":\"field_68f8ec070190d\",\"_kb_chiffres_temoignage_2_function\":\"field_68f8ec4c01910\",\"_kb_chiffres_temoignage_description\":\"field_68f8ec6b01911\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/faq-post-new {\"name\":\"acf/faq-post-new\",\"data\":{\"kb_faq_list\":5,\"kb_faq_mode\":\"unique\",\"kb_faq_title\":\"Vos interrogations légitimes\",\"kb_faq_list_0_kb_faq_answer\":\"Oui, absolument. Nous avons une équipe dédiée au bâtiment qui maîtrise parfaitement les taux de TVA réduits, l'auto-liquidation en cas de sous-traitance, ainsi que les spécificités sociales (Caisse des Congés Payés, intempéries, déplacements).\",\"kb_faq_list_1_kb_faq_answer\":\"Pas de panique. C'est notre métier de remettre les choses d'équerre. Nous reprenons votre dossier, rattrapons le retard et vous mettons en conformité rapidement pour éviter les problèmes.\",\"kb_faq_list_2_kb_faq_answer\":\"Non, c'est très simple. Nous rédigeons la lettre de résiliation pour votre ancien expert et nous nous occupons de récupérer tout l'historique de votre dossier (FEC, bilans). Vous n'avez rien à faire.\",\"kb_faq_list_3_kb_faq_answer\":\"Nos tarifs sont adaptés à la taille de votre structure (artisan seul ou PME). Nous proposons des forfaits clairs, sans surprise. Demandez votre devis gratuit pour avoir une estimation précise.\",\"kb_faq_list_4_kb_faq_answer\":\"Absolument pas. L'audit gratuit de 30 minutes sert à faire le point sur votre situation, identifier des pistes d'économies et voir si nous pouvons vous aider. Vous êtes libre de ne pas donner suite.\",\"kb_faq_list_0_kb_faq_question\":\"Connaissez-vous vraiment les spécificités du BTP (TVA, CIBTP) ?\",\"kb_faq_list_1_kb_faq_question\":\"Je suis en retard dans ma compta, pouvez-vous m'aider ?\",\"kb_faq_list_2_kb_faq_question\":\"Est-ce compliqué de changer d'expert-comptable ?\",\"kb_faq_list_3_kb_faq_question\":\"Combien coûte votre accompagnement ?\",\"kb_faq_list_4_kb_faq_question\":\"L'audit gratuit m'engage-t-il à quelque chose ?\",\"_kb_faq_list\":\"field_67b6ec8faa4ff\",\"_kb_faq_mode\":\"field_67b6edc3ee572\",\"_kb_faq_title\":\"field_67b6ed25aa503\"},\"mode\":\"edit\",\"className\":\"padding-top-0 padding-bottom-0\"} /-->\n\n<!-- wp:acf/carousel-metier {\"name\":\"acf/carousel-metier\",\"data\":{\"metiers\":[\"943\",\"13457\",\"986\",\"946\",\"940\",\"18501\",\"955\"],\"kb_carousel_metier_title\":\"Une comptabilité <span>pensée pour <br />tous les métiers</span>\",\"kb_carousel_metier_subtitle\":\"\",\"_metiers\":\"field_67b59d55abd56\",\"_kb_carousel_metier_title\":\"field_67b5a03c96f6f\",\"_kb_carousel_metier_subtitle\":\"field_67b5a05996f70\"},\"mode\":\"edit\"} /-->\n\n<!-- wp:acf/questions-frequentes {\"name\":\"acf/questions-frequentes\",\"data\":{\"kb_questions_frequentes_items\":7,\"kb_questions_frequentes_title\":\"Pour aller plus loin dans votre gestion\",\"kb_questions_frequentes_subtitle\":\"Guides et conseils pour le bâtiment\",\"kb_questions_frequentes_items_0_kb_questions_frequentes_item_link\":\"/blog/tva-btp-taux-explications/\",\"kb_questions_frequentes_items_1_kb_questions_frequentes_item_link\":\"/blog/sous-traitance-auto-liquidation/\",\"kb_questions_frequentes_items_2_kb_questions_frequentes_item_link\":\"/blog/calcul-marge-chantier/\",\"kb_questions_frequentes_items_3_kb_questions_frequentes_item_link\":\"/blog/cibtp-conges-intemperies/\",\"kb_questions_frequentes_items_4_kb_questions_frequentes_item_link\":\"/blog/statut-juridique-artisan-batiment/\",\"kb_questions_frequentes_items_5_kb_questions_frequentes_item_link\":\"/blog/controle-urssaf-btp-risques/\",\"kb_questions_frequentes_items_6_kb_questions_frequentes_item_link\":\"/blog/frais-repas-deplacement-btp/\",\"kb_questions_frequentes_items_0_kb_questions_frequentes_item_title\":\"TVA dans le BTP : taux 5.5%, 10% et 20%, comment s'y retrouver ?\",\"kb_questions_frequentes_items_1_kb_questions_frequentes_item_title\":\"Sous-traitance et auto-liquidation de la TVA : le guide complet\",\"kb_questions_frequentes_items_2_kb_questions_frequentes_item_title\":\"Comment calculer la marge d'un chantier efficacement ?\",\"kb_questions_frequentes_items_3_kb_questions_frequentes_item_title\":\"CIBTP : Tout comprendre sur les congés payés dans le bâtiment\",\"kb_questions_frequentes_items_4_kb_questions_frequentes_item_title\":\"Artisan BTP : Quel statut juridique choisir pour payer moins de charges ?\",\"kb_questions_frequentes_items_5_kb_questions_frequentes_item_title\":\"Contrôle URSSAF dans le BTP : les 5 points les plus vérifiés\",\"kb_questions_frequentes_items_6_kb_questions_frequentes_item_title\":\"Frais professionnels et panier repas : les barèmes BTP\",\"_kb_questions_frequentes_items\":\"field_68f8b86aefd3e\",\"_kb_questions_frequentes_title\":\"field_68f8b80cefd3c\",\"_kb_questions_frequentes_subtitle\":\"field_68f8b85fefd3d\"},\"mode\":\"edit\"} /-->",
+    "post_title": "Expert Comptable BTP : Audit Gratuit & Optimisation | Keobiz",
+    "post_excerpt": "Expert-comptable spécialiste du bâtiment. Sécurisez vos chantiers, évitez les redressements et optimisez votre fiscalité. Diagnostic gratuit en 48h.",
+    "post_status": "draft",
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "post_name": "expert-comptable-btp",
+    "post_type": "metier",
+    "to_ping": "",
+    "pinged": "",
+    "post_modified": "2026-01-21 18:07:11",
+    "post_modified_gmt": "2026-01-21 18:07:11",
+    "post_content_filtered": "",
+    "post_parent": 0,
+    "menu_order": 0,
+    "post_mime_type": "",
+    "comment_count": "0",
+    "filter": "raw",
+    "post_password": "",
+    "guid": "https://staging.site.keobiz.fr/?post_type=metier&#038;p=0"
+  },
+  "post_meta": {
+    "_yoast_wpseo_title": [
+      "Expert Comptable BTP : Audit Gratuit & Optimisation | Keobiz"
+    ],
+    "_yoast_wpseo_metadesc": [
+      "Expert-comptable spécialiste du bâtiment. Sécurisez vos chantiers, évitez les redressements et optimisez votre fiscalité. Diagnostic gratuit en 48h."
+    ],
+    "title": [
+      "Expert Comptable BTP : Audit Gratuit & Optimisation | Keobiz"
+    ],
+    "_edit_last": [
+      "39"
+    ],
+    "_wp_page_template": [
+      "template-job-service.php"
+    ],
+    "block_type": [
+      "with_form"
+    ],
+    "_block_type": [
+      "field_65c094db0144d"
+    ],
+    "form_title": [
+      "Prendre rendez-vous avec un conseiller"
+    ],
+    "_form_title": [
+      "field_65c093610b07c"
+    ],
+    "template_form_id": [
+      "7"
+    ],
+    "_template_form_id": [
+      "field_65e720072e7d8"
+    ],
+    "hide_actions": [
+      "0"
+    ],
+    "_hide_actions": [
+      "field_633c11fc17d35"
+    ],
+    "hide_logo": [
+      "0"
+    ],
+    "_hide_logo": [
+      "field_6470b5798a4d6"
+    ],
+    "_thumbnail_id": [
+      "23227"
+    ],
+    "_acf_changed": [
+      "1"
+    ]
+  },
+  "taxonomies": [],
+  "acf_fields": {
+    "block_type": "with_form",
+    "form_title": "Prendre rendez-vous avec un conseiller",
+    "template_form_id": "7"
+  },
+  "post_type": "metier",
+  "feature_img": [
+    "https://staging.site.keobiz.fr/wp-content/uploads/2025/03/image-23227.webp",
+    596,
+    1014,
+    false
+  ]
+}
